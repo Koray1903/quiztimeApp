@@ -1,3 +1,8 @@
+<h1>Live Version : https://quiztimeapp.netlify.app/</h1>
+
+<h2>Example API endpoint:</br>
+  https://opentdb.com/api.php?amount=10&category=15&difficulty=easy&type=multiple</h2>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
