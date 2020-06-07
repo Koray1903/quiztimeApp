@@ -1,0 +1,45 @@
+.NotFoundPage {
+  background-image: url("../images/SomethingWentWrong.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.returnHomepage {
+  position: absolute;
+  top: 0.1vh;
+  left: 0.1vw;
+  font-size: 2rem;
+  color: #fe01aa;
+  font-family: "Monoton", cursive;
+  letter-spacing: 0.1rem;
+  text-shadow: 4px 4px 20px #fe01aa;
+  padding: 1vh 0 0 1vw;
+}
+
+.returnHomepage:hover {
+  background: transparent;
+  color: #80f0ff;
+  text-shadow: 4px 4px 20px #80f0ff;
+}
+
+.returnHomepageQuiz {
+  position: absolute;
+  top: 0.1vh;
+  left: 0.1vw;
+  font-size: 2rem;
+  color: #fe01aa;
+  font-family: "Monoton", cursive;
+  letter-spacing: 0.1rem;
+  text-shadow: 4px 4px 20px #fe01aa;
+  padding: 1vh 0 0 1vw;
+}
+
+.returnHomepageQuiz:hover {
+  background: transparent;
+  color: #80f0ff;
+  text-shadow: 4px 4px 20px #80f0ff;
+}
+
+/*# sourceMappingURL=NotFoundPage.css.map */

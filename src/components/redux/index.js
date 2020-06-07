@@ -1,0 +1,2 @@
+export { addamount, addcategory, adddifficulty, addtype, fetchquestions, fetchedquestions } from "./url/urlAction";
+export { addCorrectAnswer, addWrongAnswer, addStartTime, addFinishTime } from "./result/resultAction";

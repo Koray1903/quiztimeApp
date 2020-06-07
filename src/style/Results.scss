@@ -1,0 +1,105 @@
+* {
+  font-family: 'Archivo', sans-serif;
+}
+
+.ResultsPage {
+
+
+}
+
+.returnHomepageResult {
+  position: absolute;
+  top: 0.1vh;
+  left: 0.1vw;
+  font-size: 2rem;
+  color: #fe01aa;
+  font-family: 'Monoton', cursive;
+  letter-spacing: 0.1rem;
+  text-shadow: 4px 4px 20px #fe01aa;
+  padding: 1vh 0 0 1vw;
+}
+
+.returnHomepageResult:hover {
+  background: transparent;
+  color: #80f0ff;
+  text-shadow: 4px 4px 20px #80f0ff;
+}
+
+
+.ResultMain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  background-color: hsla(0, 0%, 0%, 0.7);
+  border-radius: 2rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.ResultTime {
+  padding: 2rem 3rem 2rem 3rem;
+  margin-bottom: 0;
+}
+
+.ResultCorrect {
+  padding: 2rem 3rem 2rem 3rem;
+  margin-bottom: 0;
+}
+
+.ResultWrong {
+  padding: 2rem 3rem 2rem 3rem;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .returnHomepageResult {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .ResultMain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .ResultTime {
+    padding: 2rem 1rem 1rem 1rem;
+    margin-bottom: 0;
+  }
+
+  .ResultCorrect {
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 0;
+  }
+
+  .ResultWrong {
+    padding: 1rem 1rem 2rem 1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .returnHomepageResult {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen  and (min-width: 1025px) {
+  /* DEFAULT SCREEN */
+}
+
+
+@media only screen  and (min-width: 1600px) {
+}

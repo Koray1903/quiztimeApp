@@ -1,0 +1,86 @@
+* {
+  font-family: "Archivo", sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #090818;
+  background-image: url("../images/homeBackground2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+/* PLAY BUTTON */
+.playButtonMain {
+  text-align: left;
+}
+
+.playButton {
+  font-size: 2.5rem;
+  color: #fe01aa;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  font-family: "Monoton", cursive;
+  letter-spacing: 0.8rem;
+  margin: 1vh 0 0 1vw;
+  text-shadow: 0 0 30px #fe01aa;
+}
+
+.playButton:hover {
+  background: transparent;
+  color: #0099ff;
+  text-shadow: 0 0 30px #0099ff;
+}
+
+.playButton:focus {
+  outline: 0;
+}
+
+/* PLAY BUTTON */
+/* TRIVIA LOGO */
+.triviaMain {
+  position: absolute;
+  bottom: 2vh;
+  right: 2vw;
+}
+
+.triviaText {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-right: 0.5rem;
+}
+
+.triviaLogo {
+  height: 10vh;
+}
+
+/* TRIVIA LOGO */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .playButtonMain {
+    text-align: center;
+  }
+
+  .triviaText {
+    font-size: 1rem;
+  }
+
+  .triviaLogo {
+    height: 8vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .playButtonMain {
+    text-align: center;
+  }
+
+  .triviaLogo {
+    height: 8vh;
+  }
+}
+
+/*# sourceMappingURL=Homepage.css.map */
